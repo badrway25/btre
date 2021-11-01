@@ -1,0 +1,441 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$6bxhjZakYqKU$ZpvaINZfLMVHIN+gFCGqyzLucpM2kJmiL5lVGrBd+Gw=",
+        "last_login": "2021-11-01T12:35:46.210Z",
+        "is_superuser": true,
+        "username": "badr",
+        "first_name": "",
+        "last_name": "",
+        "email": "badrway25@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-14T09:08:49.008Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ng61ha1lmenc4spj15ns7002gdq4ja0s",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHlNRCX7v0GMsyAVA0kpV0Z_12bdKHbe865LxFxW2vcRl7izOIslDj9bgnpkdsO-I7t1iX1ti5zkrsiDzrktXN-Xg7376DiqN_aBg8EhTgY5yflizdJe0dBOSLwxESWCyellHZOgzMWEAHzBMiMLN4f2jY4Kw:1mhWXS:9kW3faGjhQQmmZT7HsCaMLeLiH2_qaS1YJU7EBBwx_s",
+        "expire_date": "2021-11-15T12:35:46.217Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 1,
+    "fields": {
+        "realtor": 1,
+        "title": "House1",
+        "address": "av saint pancrace 21",
+        "city": "Kraainem",
+        "state": "Bruxelles",
+        "zipcode": "1950",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 120000,
+        "bedrooms": 2,
+        "bathrooms": "2.0",
+        "garage": 1,
+        "sqft": 120,
+        "lot_size": "100.0",
+        "photo_main": "photos/2021/11/01/home-1.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-1.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-2.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-3.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-4.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-5.jpg",
+        "photo_6": "photos/2021/11/01/home-inside-6.jpg",
+        "is_published": true,
+        "list_date": "2021-11-01T12:38:47Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 2,
+    "fields": {
+        "realtor": 1,
+        "title": "Home2",
+        "address": "via chini,3",
+        "city": "Italia",
+        "state": "Bassano del grappa",
+        "zipcode": "36061",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 50000,
+        "bedrooms": 3,
+        "bathrooms": "2.0",
+        "garage": 2,
+        "sqft": 150,
+        "lot_size": "140.0",
+        "photo_main": "photos/2021/11/01/home-2.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-1_tHRS6MM.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-2_VljTDrq.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-3_vxHTVhR.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-4_PFSgVz4.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-5_f398gg3.jpg",
+        "photo_6": "photos/2021/11/01/home-inside-6_q4zZmV5.jpg",
+        "is_published": true,
+        "list_date": "2021-11-01T13:49:08Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 3,
+    "fields": {
+        "realtor": 2,
+        "title": "Home3",
+        "address": "rue de la pollo",
+        "city": "trepi",
+        "state": "Zimbabwe",
+        "zipcode": "89756",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 600000,
+        "bedrooms": 5,
+        "bathrooms": "5.0",
+        "garage": 2,
+        "sqft": 100,
+        "lot_size": "50.0",
+        "photo_main": "photos/2021/11/01/home-3.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-1_3SrNDeg.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-2_Yl1fghw.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-3_e9yAdpn.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-4_v7psF24.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-5_tU4vhbP.jpg",
+        "photo_6": "photos/2021/11/01/home-inside-6_J7Tc7Zn.jpg",
+        "is_published": true,
+        "list_date": "2021-11-01T13:51:02Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 4,
+    "fields": {
+        "realtor": 3,
+        "title": "Home4",
+        "address": "via lorenzo",
+        "city": "Bassono del grappa",
+        "state": "Italia",
+        "zipcode": "36061",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 80000,
+        "bedrooms": 1,
+        "bathrooms": "1.0",
+        "garage": 1,
+        "sqft": 20,
+        "lot_size": "1.0",
+        "photo_main": "photos/2021/11/01/home-4.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-1_JuW0YVT.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-2_inTQ21X.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-3_4JtiWUo.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-4_NLWdoju.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-5_9PYAgph.jpg",
+        "photo_6": "photos/2021/11/01/home-inside-6_6rgBHKc.jpg",
+        "is_published": true,
+        "list_date": "2021-11-01T13:52:29Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 5,
+    "fields": {
+        "realtor": 4,
+        "title": "Home5",
+        "address": "via toro",
+        "city": "Bassano del grappa",
+        "state": "Italia",
+        "zipcode": "36061",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 560000,
+        "bedrooms": 4,
+        "bathrooms": "4.0",
+        "garage": 2,
+        "sqft": 400,
+        "lot_size": "120.0",
+        "photo_main": "photos/2021/11/01/home-5.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-2_WtkClzx.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-3_G8P8Aun.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-4_Oh4xV3t.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-5_ZH7TwIO.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-6_DkESdEI.jpg",
+        "photo_6": "",
+        "is_published": true,
+        "list_date": "2021-11-01T13:54:01Z"
+    }
+},
+{
+    "model": "listings.listing",
+    "pk": 6,
+    "fields": {
+        "realtor": 2,
+        "title": "Home6",
+        "address": "rue la ville,87",
+        "city": "Kraainem",
+        "state": "Belgique",
+        "zipcode": "1950",
+        "description": "This may seem like a no-brainer, but your real estate listing description should be accurate. If the house is barely 900 square feet, writing that the space is “sprawling” is dishonest. When you say a home is in “excellent condition” and there is water damage throughout the house and the back deck is rotting, a potential buyer will be turned off by seeing this on arrival. Setting unrealistic expectations helps no one.\r\n\r\nInstead, own up to the home’s flaws or shortcomings and turn them into positives or offer suggestions to fix them. If your potential buyers know what to expect, they’re more likely to be accepting of the work that needs to be done.",
+        "price": 40000,
+        "bedrooms": 2,
+        "bathrooms": "2.0",
+        "garage": 1,
+        "sqft": 100,
+        "lot_size": "14.0",
+        "photo_main": "photos/2021/11/01/home-6.jpg",
+        "photo_1": "photos/2021/11/01/home-inside-1_4xCCW4n.jpg",
+        "photo_2": "photos/2021/11/01/home-inside-2_xdJq61d.jpg",
+        "photo_3": "photos/2021/11/01/home-inside-3_urTmSCz.jpg",
+        "photo_4": "photos/2021/11/01/home-inside-4_sgjIuJA.jpg",
+        "photo_5": "photos/2021/11/01/home-inside-5_kwOblH2.jpg",
+        "photo_6": "photos/2021/11/01/home-inside-6_7IwzpBM.jpg",
+        "is_published": true,
+        "list_date": "2021-11-01T13:55:32Z"
+    }
+},
+{
+    "model": "realtors.realtor",
+    "pk": 1,
+    "fields": {
+        "name": "Badr",
+        "photo": "photos/2021/11/01/IMG-20190731-WA0000.jpg",
+        "description": "Agent",
+        "phone": "0498527144",
+        "email": "badrway25@hmail.com",
+        "is_mvp": false,
+        "hire_date": "2021-11-01T12:36:01Z"
+    }
+},
+{
+    "model": "realtors.realtor",
+    "pk": 2,
+    "fields": {
+        "name": "Hanae",
+        "photo": "photos/2021/11/01/20200706_143244.jpg",
+        "description": "Agent 2",
+        "phone": "04985277144",
+        "email": "hanae@gmail.com",
+        "is_mvp": false,
+        "hire_date": "2021-11-01T12:36:57Z"
+    }
+},
+{
+    "model": "realtors.realtor",
+    "pk": 3,
+    "fields": {
+        "name": "Harit",
+        "photo": "photos/2021/11/01/IMG-20210414-WA0012.jpg",
+        "description": "Agent 3",
+        "phone": "0498527144",
+        "email": "harit@gmail.com",
+        "is_mvp": false,
+        "hire_date": "2021-11-01T12:37:28Z"
+    }
+},
+{
+    "model": "realtors.realtor",
+    "pk": 4,
+    "fields": {
+        "name": "Marco",
+        "photo": "photos/2021/11/01/IMG-20200404-WA0019.jpg",
+        "description": "Agent 4",
+        "phone": "0498527144",
+        "email": "marco@gmail.com",
+        "is_mvp": false,
+        "hire_date": "2021-11-01T12:38:00Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "listing": " Home6",
+        "listing_id": 6,
+        "name": "fgdf ",
+        "email": "badrway25@gmail.com",
+        "phone": "5567",
+        "message": "7676",
+        "contact_date": "2021-11-01T13:58:00.268Z",
+        "user_id": 1
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-11-01T12:36:54.714Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "realtors",
+            "realtor"
+        ],
+        "object_id": "1",
+        "object_repr": "Badr",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-11-01T12:37:28.871Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "realtors",
+            "realtor"
+        ],
+        "object_id": "2",
+        "object_repr": "Hanae",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-11-01T12:38:00.524Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "realtors",
+            "realtor"
+        ],
+        "object_id": "3",
+        "object_repr": "Harit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-11-01T12:38:43.811Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "realtors",
+            "realtor"
+        ],
+        "object_id": "4",
+        "object_repr": "Marco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-11-01T13:49:08.097Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "1",
+        "object_repr": "House1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-11-01T13:51:02.029Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "2",
+        "object_repr": "Home2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-11-01T13:52:28.953Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "3",
+        "object_repr": "Home3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-11-01T13:54:01.187Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "4",
+        "object_repr": "Home4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-11-01T13:55:32.528Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "5",
+        "object_repr": "Home5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-11-01T13:56:46.732Z",
+        "user": [
+            "badr"
+        ],
+        "content_type": [
+            "listings",
+            "listing"
+        ],
+        "object_id": "6",
+        "object_repr": "Home6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
