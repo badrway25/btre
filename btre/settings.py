@@ -27,7 +27,7 @@ SECRET_KEY = '63^dgt@r3hue12qi5$=gvtit&3hy2&nteg!b*h(-@$vsi(y%*d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['limitless-taiga-62641.herokuapp.com', 'badrwayhousebtre.com', 'www.badrwayhousebtre.com']
 
 
 # Application definition
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'btre.urls'
